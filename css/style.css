@@ -1,0 +1,147 @@
+
+
+/* 重置浏览器默认样式 */
+body, header, footer,figure, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, hr, pre, form, fieldset, input, textarea, p, blockquote, th, td
+{
+    padding: 0;
+    margin: 0;
+}
+/* 除去ie单击的虚线框 */
+a:focus{outline:none;}
+ol, ul { list-style: none; }
+body
+{
+    font-family:"\5FAE\8F6F\96C5\9ED1",helvetica,Arial;
+    color: #333;
+    font-size: 14px;
+}
+
+/* 测试浮动 */
+.header
+{
+    margin: 20px;
+    padding: 10px;
+    width: 300px;
+    border: 5px solid #b6ebff;
+}
+.header .p1
+{
+    margin: 20px;
+    float: left;
+}
+.header .p2
+{
+    margin: 20px;
+    float: left;
+}
+/* 设置菜单样式 */
+.navfirst
+{
+    margin: 0 auto;
+    width: 1200px;
+    background-color: #e6bd55;
+    min-width: 1200px;
+    height: 60px;
+    color: white;
+}
+.navfirst .logo
+{
+    float: left;
+    color: white;
+}
+.navfirst .logo a
+{
+    text-decoration: none;
+    color: white;
+}
+.navfirst .menu
+{
+    float: left;
+    color: white;
+}
+.menu li
+{
+    width: 110px;
+    height: 60px;
+    border-left: 1px solid #e6bd55;
+    float:left;
+    list-style-type: none;
+    color: white;
+}
+/**/
+.menu li:hover
+{
+    background-color: #FFCC00;
+    cursor: pointer;
+}
+.menu li a
+{
+    display: block;
+    width: 110px;
+    margin-top: 10px;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+/* 设置附加菜单栏样式 */
+p{text-indent:2em}
+.mainclearfix
+{
+    margin: 0 auto;
+    width: 1200px;
+}
+.navsecond
+{
+    float: left;
+    width: 120px;
+}
+.content
+{
+    float: left;
+    width: 960px;
+}
+.center
+{
+    display: block;
+    text-align: center;
+}
+.fullwidth
+{
+    width: 100%;
+}
+.sidebar
+{
+    float: left;
+    width: 120px;
+}
+
+/* 设置内容区 */
+
+
+/* 设置右边菜单栏样式 */
+
+
+
+/*  */
+
+/* 设置脚注样式 */
+.footer
+{
+    width: 100%;
+    height: 70px;
+    background-color: #133f75;
+    color: white;
+    /* 设置边框属性,保证子块的margin(外边框)包含在包含块内 */
+    border: solid 1px #133f75;
+    overflow: hidden;
+}
+.footer .letter
+{
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    /*  */
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
